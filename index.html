@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Local Storage Assignment</h1>
+    <section>
+        <div class="inputs">
+            <p>
+                Input student information below and press <b>submit</b> to add it to local storage.
+                Then press <b>Get Student Roster</b> to see all students.
+            </p>
+            <label for="name">Student Name <span>*</span></label>
+            <input id="name" type="text">
+            <label for="age">Student Age <span>*</span></label>
+            <input id="age" type="text">
+            <label for="phone">Student Phone # <span>*</span></label>
+            <input id="phone" type="text">
+            <label for="email">Student Email <span>*</span></label>
+            <input id="email" type="text">
+            <label for="classes">Student Classes <span>*</span></label>
+            <input id="classes" type="text">
+            <input type="submit" id="submit" value="Submit">
+
+            <button id="getStudents">Get Student Roster</button>
+        </div>
+        <div id="app"></div>
+    </section>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
